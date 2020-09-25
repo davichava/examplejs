@@ -3,10 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Variables</title>
-    <script src="js/variables.js"></script>
+    <title>Operation arithmetic</title>
+    <!-- <script src="js/variables.js"></script> -->
+    <script src="js/operations_aritmet.js"></script>
 </head>
 <body>
     <!-- <img src="" alt=""> -->
+    <h1>Formulary Operations_arithmetic</h1>
+    <form action="">
+        <label for="nOne">Number One</label>
+        <input type="text" name="nOne" id="nOne">
+        <br><br>
+        <label for="nTwo">Number Two</label>
+        <input type="text"  name="nTwo" id="nTwo">
+        <br><br>
+        <button type="button" onclick="sumar()" >Calcular</button>
+        <button type="button" onclick="multiplicar()" >multiplicar</button>
+        <button type="button" onclick="dividir()" >dividir</button>
+        <p>Result:
+            <textarea id="resultOpretations" cols="6" rows="1"></textarea>
+        </p>
+    </form>
+<hr>
+    <h1>Area del Triangulo</h1>
+    <form action="">
+        <label for="base">base Triangulo</label>
+        <input type="text" name="base" id="base">
+        <br><br>
+        <label for="altura">Altura Triangulo</label>
+        <input type="text"  name="altura" id="altura">
+        <br><br>
+        <button type="button" onclick="triangulo()" >Calcular</button>
+        <p>Result:
+            <textarea id="resulTTriangulo" cols="6" rows="1"></textarea>
+        </p>
+    </form>
+    <hr>
+    <h1>Area del Circulo</h1>
+    <form action="">        
+        <label for="radio">circulo</label>
+        <input type="text"  name="radio" id="radio">
+        <br><br>
+        <button type="button" onclick="circulo()" >Calcular</button>
+        <p>Result:
+            <textarea id="resulTCirculo" cols="6" rows="1"></textarea>
+        </p>
+    </form>
 </body>
 </html>
